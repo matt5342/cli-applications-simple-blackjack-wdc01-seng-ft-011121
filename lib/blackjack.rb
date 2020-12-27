@@ -76,6 +76,7 @@ end
 # 6. If their card total exceeds 21, the game ends.
 def runner
   # code runner here
+<<<<<<< HEAD
   welcome
   total = initial_round
   until total > 21 do
@@ -83,6 +84,8 @@ def runner
   display_card_total(total)
 end
 end_game(total)
+=======
+>>>>>>> b9c41631e953bc985ce689f36b3bcbef9e38d7e8
   
 end
     
